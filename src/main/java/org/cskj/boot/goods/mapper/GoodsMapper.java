@@ -19,4 +19,5 @@ public interface GoodsMapper {
 	int updateGoods(Goods goods);
 
 	
+	
 }
