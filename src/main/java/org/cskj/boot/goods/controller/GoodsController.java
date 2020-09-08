@@ -20,6 +20,7 @@ public class GoodsController {
 	
 	@GetMapping(value="queryGoodsAll")
 	public List<Goods> queryGoodsAll(){
+		System.out.println("1234");
 		return gs.queryGoodsAll();
 	}
 	@PostMapping(value="addGoods")
